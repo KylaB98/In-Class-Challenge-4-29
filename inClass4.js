@@ -25,7 +25,7 @@ console.log(arrowAdd100(200));
 const countLetters = (sentence, letter) => {
     let letterCount = 0;
     for (let place = 0; place < sentence.length; place++ ){
-        if (string.charAt(place) == letter){
+        if (sentence.charAt(place) == letter){
             letterCount += 1;
         }
     }
