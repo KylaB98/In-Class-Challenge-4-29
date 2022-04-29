@@ -22,10 +22,10 @@ console.log(arrowAdd100(200));
 //countLetters('We love this city a lot, sometimes', 'e') returns 4
 
 
-const countLetters = (string, letter) => {
+const countLetters = (sentence, letter) => {
     let letterCount = 0;
-    for (let spot = 0; spot < string.length; spot++ ){
-        if (string.charAt(spot) == letter){
+    for (let place = 0; place < sentence.length; place++ ){
+        if (string.charAt(place) == letter){
             letterCount += 1;
         }
     }
